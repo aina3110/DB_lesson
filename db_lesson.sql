@@ -75,7 +75,8 @@ Q6
 peopleのテーブルから、営業の部署に所属している人のレコードを取得し、名前とemailと年齢のカラムを日付の順で表示
 
 Q7
-select name from people 
+select name 
+from people 
 where (gender=2 and age>19 and age<30) 
 or (gender=1 and age>39 and age<50);
 
